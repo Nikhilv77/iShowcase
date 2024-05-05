@@ -1,0 +1,59 @@
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+@media screen and (max-width:1290px){
+  .swiper{
+    width: 80%;
+  }
+}
+@media screen and (max-width:1048px){
+  .swiper{
+    width: 90%;
+  }
+}
+
+@media screen and (max-width:900px){
+  .swiper{
+    width: 100%;
+  }
+}
+@media screen and (max-width:550px){
+ 
+.swiper-slide {
+  width: 300px !important;
+  height: 230px !important;
+}
+}
+
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 470px;
+  height: 300px;
+  background-color: #FFFFF0;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.swiper-slide img {
+
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+
+  transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.5)); /* Adding transition for border-color and box-shadow */
+}
+
+/* .swiper-slide img:hover {
+  border-color:  rgba(0, 126, 242, 1);
+  box-shadow: 0 0 10px linear-gradient(
+    135deg,
+    rgba(0, 126, 242, 1),
+    rgba(0, 58, 108, 1)
+  );
+} */
