@@ -16,8 +16,8 @@ const HeaderSection = styled.section`
   width: 100vw;
   font-family: "Josefin Sans", sans-serif;
   @media (max-width: 750px) {
-    height: 78vh !important;
-    align-items: start;
+    height: 35rem !important;
+  
     grid-template-columns: 1fr;
     grid-template-rows: 1.5fr 1fr;
     justify-items: center;
@@ -101,7 +101,7 @@ const ImageContainer = styled.div`
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-    align-items: flex-start;
+    /* align-items: flex-start; */
   }
 `
 const Title = styled(motion.div)`
