@@ -108,8 +108,7 @@ const Title = styled(motion.div)`
   padding-left: 3rem;
   overflow: hidden;
   position: relative;
-  height: 100%;
-  width: 100%;
+
   z-index: 5;
   display: flex;
   flex-direction: column;
@@ -118,9 +117,9 @@ const Title = styled(motion.div)`
   gap: 2rem;
   @media (max-width: 750px) {
     justify-content: flex-start;
+    
     padding-left: 0;
-    height: 100%;
-    width: 100%;
+   
     bottom: 0;
     left: 49%;
     transform: translateX(-50%);
