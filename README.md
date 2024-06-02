@@ -1,6 +1,3 @@
-Certainly! Here's the README content for iShowcase:
-
-```markdown
 # iShowcase
 
 iShowcase is a front-end website made in React.js, CSS, and Framer Motion for animations. This website serves as a showcase for iPhones.
