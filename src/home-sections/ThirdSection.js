@@ -175,7 +175,7 @@ Choosing the Perfect iPhone for Your Lifestyle
         </motion.h1>
         <ImageContainer>
           <I1
-            initial={{ top: '-109%', opacity: 0 }}
+            initial={{ top: '-80%', opacity: 0 }}
             whileInView={{ top: 0, opacity: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 1.7, delay: 1 }}
